@@ -1,0 +1,8 @@
+build/
+WarehouseORM/build/
+out/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.vs/

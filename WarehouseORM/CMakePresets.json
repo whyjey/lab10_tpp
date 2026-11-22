@@ -1,0 +1,23 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "Windows x64 (GCC/Ninja)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build",
+      "environment": {
+        "VCPKG_DEFAULT_TRIPLET": "x64-mingw-static",
+        "VCPKG_DEFAULT_HOST_TRIPLET": "x64-mingw-static"
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_CXX_COMPILER": "C:/Users/Admin/scoop/apps/gcc/current/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/Admin/scoop/shims/ninja.exe",
+        "VCPKG_TARGET_TRIPLET": "x64-mingw-static",
+        "VCPKG_HOST_TRIPLET": "x64-mingw-static",
+        "CMAKE_TOOLCHAIN_FILE": "C:/Users/Admin/scoop/apps/vcpkg/2026.10.16/scripts/buildsystems/vcpkg.cmake"
+      }
+    }
+  ]
+}
